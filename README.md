@@ -6,7 +6,8 @@
 2. try!, run `hugo server` in project directory
 3. add post to `content/posts/your-article-name.md`, the head/meta info format must be same like [this](https://github.com/codenoid/engineers.id/blob/master/content/posts/cara-install-golang-di-linux.md)
 4. add static image to `static/posts/your-article-name/image.jpg`, load the image with `/posts/your-article-name/image.jpg`
-5. send pull request !
+5. remove generated `public` folder `git rm public -f`
+6. send pull request !
 
 point 3 : 
 
